@@ -19,8 +19,8 @@ RUN \
 
 RUN \
   apt-get update && \
-  apt-get install -y vim \
-  apt-get install -y nginx \
+  apt-get install -y vim && \
+  apt-get install -y nginx && \
   apt-get install -y apache2-utils
 
 # Define mountable directories.

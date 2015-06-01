@@ -33,9 +33,6 @@ ADD config/user.pwd /data/user.pwd
 # Define working directory.
 WORKDIR /data
 
-RUN \
-  service nginx start
-
 # Define default command.
 CMD ["/elasticsearch/bin/elasticsearch"]
 
